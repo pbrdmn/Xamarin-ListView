@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ListView.TabsPage" BackgroundColor="#008877">
+	<TabbedPage.Children>
+		<ContentPage Title="Discover" Icon="Discover.png">
+			<StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+				<StackLayout Padding="10">
+					<Label Text="Discover" HorizontalOptions="Center" FontSize="Large" FontAttributes="Bold" TextColor="#FC5830" />
+				</StackLayout>
+				<StackLayout Padding="5">
+					<Entry x:Name="SearchTerm" Placeholder="Search..." HorizontalOptions="Fill" />
+				</StackLayout>
+				<ListView x:Name="discoverListView" BackgroundColor="White" />
+			</StackLayout>
+		</ContentPage>
+		<ContentPage Title="Bucketed" Icon="Bucketed.png">
+			<StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+				<StackLayout Padding="10">
+					<Label Text="Bucketed" HorizontalOptions="Center" FontSize="Large" FontAttributes="Bold" TextColor="#FC5830" />
+				</StackLayout>
+				<ListView x:Name="bucketedListView" BackgroundColor="White" />
+			</StackLayout>
+		</ContentPage>
+		<ContentPage Title="Achieved" Icon="Achieved.png">
+			<StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+				<StackLayout Padding="10">
+					<Label Text="Achieved" HorizontalOptions="Center" FontSize="Large" FontAttributes="Bold" TextColor="#FC5830" />
+				</StackLayout>
+				<ListView x:Name="achievedListView" BackgroundColor="White" />
+			</StackLayout>
+		</ContentPage>
+	</TabbedPage.Children>
+</TabbedPage>

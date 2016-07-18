@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ListView.UserPage" Title="{Binding Name}">
+	<ContentPage.Content>
+		<StackLayout HorizontalOptions="Fill" Padding="10">
+			<Label Text="Me" HorizontalOptions="Center" FontSize="Large" FontAttributes="Bold" TextColor="#FC5830" />
+
+			<Label Text="Name" TextColor="#727272" />
+			<Label Text="{Binding Name}" HorizontalOptions="Fill" />
+			<Label Text="Email" TextColor="#727272" />
+			<Label Text="{Binding Email}" HorizontalOptions="Fill" />
+			<Label Text="Phone" TextColor="#727272" />
+			<Label Text="{Binding Phone}" HorizontalOptions="Fill" />
+			<Button x:Name="UpdateBtn" Text="Update" TextColor="#008877" HorizontalOptions="End" IsVisible="false" />
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

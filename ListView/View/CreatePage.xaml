@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ListView.CreatePage">
+	<ContentPage.Content>
+		<ScrollView>
+			<StackLayout HorizontalOptions="Fill" Padding="10">
+				<Label Text="Create Attraction" HorizontalOptions="Center" FontSize="Large" FontAttributes="Bold" TextColor="#FC5830" />
+
+				<Label Text="Name:" />
+				<Entry x:Name="Name" Placeholder="Attraction Name" HorizontalOptions="Fill" />
+				<Label Text="Description:" />
+				<Editor x:Name="Description" HorizontalOptions="Fill" />
+				<Label Text="Location:" />
+				<Entry x:Name="Location" Placeholder="Attraction Location" HorizontalOptions="Fill" />
+				<Button x:Name="CameraBtn" Text="Add Photo" HorizontalOptions="Center" />
+				<Image x:Name="Picture" Source="{Binding imageSource}" HorizontalOptions="Fill" />
+			</StackLayout>
+		</ScrollView>
+	</ContentPage.Content>
+</ContentPage>

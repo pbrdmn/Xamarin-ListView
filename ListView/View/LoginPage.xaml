@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ListView.LoginPage">
+	<ContentPage.Content>
+		<ScrollView>
+			<StackLayout HorizontalOptions="Fill" Padding="10">
+				<Label Text="Login or Register" HorizontalOptions="Center" FontSize="Large" FontAttributes="Bold" TextColor="#FC5830" />
+
+				<Label Text="Your Email" />
+				<Entry x:Name="Email" Placeholder="email@address.com" HorizontalOptions="Fill" Keyboard="Email" />
+				<StackLayout x:Name="NameHolder" IsVisible="False">
+					<Label Text="Your Name" />
+					<Entry x:Name="Name" Placeholder="Your Name" HorizontalOptions="Fill" />
+				</StackLayout>
+				<StackLayout x:Name="PhoneHolder" IsVisible="False">
+					<Label Text="Your Phone" />
+					<Entry x:Name="Phone" Placeholder="Your Phone" HorizontalOptions="Fill" Keyboard="Telephone" />
+				</StackLayout>
+				<StackLayout x:Name="PasswordHolder" IsVisible="False">
+					<Label Text="Password" />
+					<Entry x:Name="Password" Placeholder="6 or more characters" HorizontalOptions="Fill" IsPassword="True" />
+				</StackLayout>
+			</StackLayout>
+		</ScrollView>
+	</ContentPage.Content>
+</ContentPage>

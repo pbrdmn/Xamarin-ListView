@@ -1,0 +1,23 @@
+﻿<Properties StartupItem="iOS/ListView.iOS.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6s.9.2" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ListView/View/DetailsPage.xaml">
+    <Files>
+      <File FileName="ListView/Data/IParseStorage.cs" Line="31" Column="26" />
+      <File FileName="Droid/Data/ParseStorage.cs" Line="209" Column="4" />
+      <File FileName="iOS/Data/ParseStorage.cs" Line="16" Column="15" />
+      <File FileName="ListView/View/TabsPage.xaml.cs" Line="36" Column="26" />
+      <File FileName="ListView/View/TabsPage.xaml" Line="6" Column="31" />
+      <File FileName="ListView/View/CreatePage.xaml.cs" Line="24" Column="33" />
+      <File FileName="ListView/View/CreatePage.xaml" Line="15" Column="87" />
+      <File FileName="ListView/View/LoginPage.xaml.cs" Line="36" Column="29" />
+      <File FileName="ListView/View/LoginPage.xaml" Line="21" Column="19" />
+      <File FileName="ListView/View/DetailsPage.xaml" Line="19" Column="1" />
+      <File FileName="ListView/View/DetailsPage.xaml.cs" Line="61" Column="27" />
+      <File FileName="ListView/View/UserPage.xaml.cs" Line="38" Column="40" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
